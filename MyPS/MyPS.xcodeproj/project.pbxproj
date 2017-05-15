@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C219BB9F1EC6D32E0065D334 /* UIImage+HSB.m in Sources */ = {isa = PBXBuildFile; fileRef = C219BB9E1EC6D32E0065D334 /* UIImage+HSB.m */; };
 		C2F9E82C1EC07049000FD307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E82B1EC07049000FD307 /* main.m */; };
 		C2F9E82F1EC07049000FD307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E82E1EC07049000FD307 /* AppDelegate.m */; };
 		C2F9E8321EC07049000FD307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E8311EC07049000FD307 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C219BB9D1EC6D32E0065D334 /* UIImage+HSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HSB.h"; sourceTree = "<group>"; };
+		C219BB9E1EC6D32E0065D334 /* UIImage+HSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HSB.m"; sourceTree = "<group>"; };
 		C2F9E8271EC07049000FD307 /* MyPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9E82B1EC07049000FD307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2F9E82D1EC07049000FD307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C219BB9C1EC6D2F00065D334 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C219BB9D1EC6D32E0065D334 /* UIImage+HSB.h */,
+				C219BB9E1EC6D32E0065D334 /* UIImage+HSB.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		C2F9E81E1EC07049000FD307 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		C2F9E8291EC07049000FD307 /* MyPS */ = {
 			isa = PBXGroup;
 			children = (
+				C219BB9C1EC6D2F00065D334 /* Tool */,
 				C2F9E82D1EC07049000FD307 /* AppDelegate.h */,
 				C2F9E82E1EC07049000FD307 /* AppDelegate.m */,
 				C2F9E8301EC07049000FD307 /* ViewController.h */,
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F9E8321EC07049000FD307 /* ViewController.m in Sources */,
+				C219BB9F1EC6D32E0065D334 /* UIImage+HSB.m in Sources */,
 				C2F9E82F1EC07049000FD307 /* AppDelegate.m in Sources */,
 				C2F9E82C1EC07049000FD307 /* main.m in Sources */,
 			);
@@ -518,6 +532,7 @@
 				C2F9E8561EC07049000FD307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F9E8571EC07049000FD307 /* Build configuration list for PBXNativeTarget "MyPSTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				C2F9E8591EC07049000FD307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F9E85A1EC07049000FD307 /* Build configuration list for PBXNativeTarget "MyPSUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				C2F9E85C1EC07049000FD307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

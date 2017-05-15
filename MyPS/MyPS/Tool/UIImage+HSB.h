@@ -6,8 +6,8 @@
 //  Copyright © 2017年 congratulas. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIImage.h>
 
-@interface UIImage_HSB : NSObject
+@interface UIImage (HSB)
 
 @end
