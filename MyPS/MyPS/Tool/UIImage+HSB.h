@@ -10,4 +10,8 @@
 
 @interface UIImage (HSB)
 
+- (UIImage *)imageWithHue:(CGFloat)hue//色相
+               saturation:(CGFloat)saturation//饱和度
+               brightness:(CGFloat)brightness;//亮度
+
 @end

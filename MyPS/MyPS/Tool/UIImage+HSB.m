@@ -91,7 +91,6 @@
                     *green = min;
                     *blue = max - per1 * gap;
                     break;
-
                 default:
                     break;
             }

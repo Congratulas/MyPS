@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20096D91ECE971100AB1D5B /* MyPSCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C20096D81ECE971100AB1D5B /* MyPSCanvas.m */; };
+		C20096DC1ECE971A00AB1D5B /* MyPSPaintLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C20096DB1ECE971A00AB1D5B /* MyPSPaintLayer.m */; };
+		C20096E11ECE972200AB1D5B /* MyPSGlobalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C20096DE1ECE972200AB1D5B /* MyPSGlobalObject.m */; };
+		C20096E21ECE972200AB1D5B /* MyPSProjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C20096E01ECE972200AB1D5B /* MyPSProjectManager.m */; };
+		C20096E51ECE978700AB1D5B /* MyPSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20096E41ECE978700AB1D5B /* MyPSMainViewController.m */; };
 		C219BB9F1EC6D32E0065D334 /* UIImage+HSB.m in Sources */ = {isa = PBXBuildFile; fileRef = C219BB9E1EC6D32E0065D334 /* UIImage+HSB.m */; };
+		C23236D11ECD907900AD0B06 /* MyPSGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23236CD1ECD907900AD0B06 /* MyPSGuideViewController.m */; };
 		C2F9E82C1EC07049000FD307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E82B1EC07049000FD307 /* main.m */; };
 		C2F9E82F1EC07049000FD307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E82E1EC07049000FD307 /* AppDelegate.m */; };
 		C2F9E8321EC07049000FD307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9E8311EC07049000FD307 /* ViewController.m */; };
@@ -36,8 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20096D71ECE971100AB1D5B /* MyPSCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSCanvas.h; sourceTree = "<group>"; };
+		C20096D81ECE971100AB1D5B /* MyPSCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSCanvas.m; sourceTree = "<group>"; };
+		C20096DA1ECE971A00AB1D5B /* MyPSPaintLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSPaintLayer.h; sourceTree = "<group>"; };
+		C20096DB1ECE971A00AB1D5B /* MyPSPaintLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSPaintLayer.m; sourceTree = "<group>"; };
+		C20096DD1ECE972200AB1D5B /* MyPSGlobalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSGlobalObject.h; sourceTree = "<group>"; };
+		C20096DE1ECE972200AB1D5B /* MyPSGlobalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSGlobalObject.m; sourceTree = "<group>"; };
+		C20096DF1ECE972200AB1D5B /* MyPSProjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSProjectManager.h; sourceTree = "<group>"; };
+		C20096E01ECE972200AB1D5B /* MyPSProjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSProjectManager.m; sourceTree = "<group>"; };
+		C20096E31ECE978700AB1D5B /* MyPSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSMainViewController.h; sourceTree = "<group>"; };
+		C20096E41ECE978700AB1D5B /* MyPSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSMainViewController.m; sourceTree = "<group>"; };
 		C219BB9D1EC6D32E0065D334 /* UIImage+HSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HSB.h"; sourceTree = "<group>"; };
 		C219BB9E1EC6D32E0065D334 /* UIImage+HSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HSB.m"; sourceTree = "<group>"; };
+		C23236CC1ECD907900AD0B06 /* MyPSGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPSGuideViewController.h; sourceTree = "<group>"; };
+		C23236CD1ECD907900AD0B06 /* MyPSGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPSGuideViewController.m; sourceTree = "<group>"; };
 		C2F9E8271EC07049000FD307 /* MyPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F9E82B1EC07049000FD307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2F9E82D1EC07049000FD307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +108,123 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		C23236AB1ECAF76A00AD0B06 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C23236B31ECC197000AD0B06 /* Objs */,
+				C23236AF1ECAF76A00AD0B06 /* Filter */,
+				C23236B01ECAF76A00AD0B06 /* ImageTools */,
+				C23236AC1ECAF76A00AD0B06 /* BrushAssociation */,
+				C23236AD1ECAF76A00AD0B06 /* Canvas */,
+				C23236AE1ECAF76A00AD0B06 /* ImageAssociation */,
+				C23236B11ECAF76A00AD0B06 /* Layers */,
+				C23236B21ECAF76A00AD0B06 /* UI */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C23236AC1ECAF76A00AD0B06 /* BrushAssociation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BrushAssociation;
+			sourceTree = "<group>";
+		};
+		C23236AD1ECAF76A00AD0B06 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				C20096D71ECE971100AB1D5B /* MyPSCanvas.h */,
+				C20096D81ECE971100AB1D5B /* MyPSCanvas.m */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		C23236AE1ECAF76A00AD0B06 /* ImageAssociation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageAssociation;
+			sourceTree = "<group>";
+		};
+		C23236AF1ECAF76A00AD0B06 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Filter;
+			path = ImageAssociation/Filter;
+			sourceTree = "<group>";
+		};
+		C23236B01ECAF76A00AD0B06 /* ImageTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ImageTools;
+			path = ImageAssociation/ImageTools;
+			sourceTree = "<group>";
+		};
+		C23236B11ECAF76A00AD0B06 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				C20096DA1ECE971A00AB1D5B /* MyPSPaintLayer.h */,
+				C20096DB1ECE971A00AB1D5B /* MyPSPaintLayer.m */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		C23236B21ECAF76A00AD0B06 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C20096E31ECE978700AB1D5B /* MyPSMainViewController.h */,
+				C20096E41ECE978700AB1D5B /* MyPSMainViewController.m */,
+				C23236CB1ECD907900AD0B06 /* guide */,
+				C23236CE1ECD907900AD0B06 /* menu */,
+				C23236CF1ECD907900AD0B06 /* setting */,
+				C23236D01ECD907900AD0B06 /* tool */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C23236B31ECC197000AD0B06 /* Objs */ = {
+			isa = PBXGroup;
+			children = (
+				C20096DD1ECE972200AB1D5B /* MyPSGlobalObject.h */,
+				C20096DE1ECE972200AB1D5B /* MyPSGlobalObject.m */,
+				C20096DF1ECE972200AB1D5B /* MyPSProjectManager.h */,
+				C20096E01ECE972200AB1D5B /* MyPSProjectManager.m */,
+			);
+			path = Objs;
+			sourceTree = "<group>";
+		};
+		C23236CB1ECD907900AD0B06 /* guide */ = {
+			isa = PBXGroup;
+			children = (
+				C23236CC1ECD907900AD0B06 /* MyPSGuideViewController.h */,
+				C23236CD1ECD907900AD0B06 /* MyPSGuideViewController.m */,
+			);
+			path = guide;
+			sourceTree = "<group>";
+		};
+		C23236CE1ECD907900AD0B06 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		C23236CF1ECD907900AD0B06 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		C23236D01ECD907900AD0B06 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
 		C2F9E81E1EC07049000FD307 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +248,7 @@
 		C2F9E8291EC07049000FD307 /* MyPS */ = {
 			isa = PBXGroup;
 			children = (
+				C23236AB1ECAF76A00AD0B06 /* Class */,
 				C219BB9C1EC6D2F00065D334 /* Tool */,
 				C2F9E82D1EC07049000FD307 /* AppDelegate.h */,
 				C2F9E82E1EC07049000FD307 /* AppDelegate.m */,
@@ -289,9 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20096E51ECE978700AB1D5B /* MyPSMainViewController.m in Sources */,
 				C2F9E8321EC07049000FD307 /* ViewController.m in Sources */,
+				C23236D11ECD907900AD0B06 /* MyPSGuideViewController.m in Sources */,
 				C219BB9F1EC6D32E0065D334 /* UIImage+HSB.m in Sources */,
+				C20096E21ECE972200AB1D5B /* MyPSProjectManager.m in Sources */,
+				C20096DC1ECE971A00AB1D5B /* MyPSPaintLayer.m in Sources */,
 				C2F9E82F1EC07049000FD307 /* AppDelegate.m in Sources */,
+				C20096D91ECE971100AB1D5B /* MyPSCanvas.m in Sources */,
+				C20096E11ECE972200AB1D5B /* MyPSGlobalObject.m in Sources */,
 				C2F9E82C1EC07049000FD307 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +587,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G537BBSF52;
 				INFOPLIST_FILE = MyPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxia.MyPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G537BBSF52;
 				INFOPLIST_FILE = MyPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxia.MyPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";

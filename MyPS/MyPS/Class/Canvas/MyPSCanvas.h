@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  MyPSCanvas.h
 //  MyPS
 //
-//  Created by congratulas on 2017/5/8.
+//  Created by congratulas on 2017/5/18.
 //  Copyright © 2017年 congratulas. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MyPSCanvas : UIView
 
 @end
-

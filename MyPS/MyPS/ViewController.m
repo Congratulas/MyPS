@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyPSGuideViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[MyPSGuideViewController alloc] init]];
+    nav.navigationBarHidden =YES;
+    [UIApplication sharedApplication].delegate.window.rootViewController = nav;
 }
 
 
