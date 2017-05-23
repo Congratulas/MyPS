@@ -11,21 +11,6 @@
 
 @implementation MyPSProject
 
-- (void)getImage {
-    PHImageRequestOptions *options = [[PHImageRequestOptions alloc] init];
-    // 同步获得图片, 只会返回1张图片
-    options.synchronous = YES;
-
-    // 是否要原图
-    BOOL original = YES;
-    CGSize size = original ? CGSizeMake(self.asset.pixelWidth, self.asset.pixelHeight) : CGSizeZero;
-
-    // 从asset中获得图片
-    [[PHImageManager defaultManager] requestImageForAsset:self.asset targetSize:size contentMode:PHImageContentModeDefault options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
-
-    }];
-}
-
 @end
 
 @implementation MyPSProjectManager

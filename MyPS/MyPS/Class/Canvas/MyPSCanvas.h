@@ -10,4 +10,8 @@
 
 @interface MyPSCanvas : UIView
 
++ (instancetype)currentCanvas;
+
+- (void)newLayerWithData:(NSData *)data;
+
 @end
